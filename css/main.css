@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slot-container {
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#slot-container > div {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

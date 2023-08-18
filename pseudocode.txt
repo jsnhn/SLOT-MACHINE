@@ -1,0 +1,5 @@
+When a user clicks the play button...
+- We need to get 3 random numbers
+- store those 3 numbers in our slot state object
+- they will replace the old numbers
+- once we update the slot state then render to the DOM
